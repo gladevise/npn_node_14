@@ -1,10 +1,6 @@
 [build]
   command = "npm run build"
-  # publish = "out"
+  publish = "out"
 
 [build.environment]
 NODE_VERSION="14"
-
-# [context.production.environment]
-# NEXT_SERVERLESS = "true"
-# NODE_ENV = "production"
